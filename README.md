@@ -295,7 +295,9 @@ Ahora la implementación del PIN, ingresamos un pin:
 
 
 Y posteriormente ingresado nos valida:
+
 <img width="317" height="686" alt="image" src="https://github.com/user-attachments/assets/55df16c9-9dd0-4b5a-a982-fe2768533a1f" />
+
 
 
 
