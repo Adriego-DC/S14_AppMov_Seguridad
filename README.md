@@ -130,6 +130,7 @@ Modifica DataProtectionManager.kt para implementar:
 Cambios realizados:
 
 - **Rotación de clave maestra cada 30 días**
+<img width="588" height="276" alt="image" src="https://github.com/user-attachments/assets/21d6ea21-5ba0-473a-9fc0-7cb6ca0c23d5" />
 
 
 \-Se guarda en SharedPreferences la fecha de la última rotación.
@@ -246,4 +247,5 @@ Ahora la implementación del PIN, ingresamos un pin:
 
 
 Y posteriormente ingresado nos valida:
+
 
