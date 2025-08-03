@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔒 Auditoría de Seguridad"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnAccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intentar acceder (sospechoso)" />
+
+        <Button
+            android:id="@+id/btnSensitiveOperation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Operación sensible (rate limit)"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnForceAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forzar alerta anómala"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnExport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exportar JSON firmado"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
